@@ -1,0 +1,47 @@
+*{
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+
+}
+.about_us .headLine .headLine_line {
+    margin: 0 20px 10px 0;
+}
+.ourClients .headLine .headLine_line {
+    margin: 0 20px 10px 0;
+}
+.footer .logoContainer p {
+    margin-left: 0;
+    margin-right: 45px;
+}
+
+.projects .project .project_content button .fa-download {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.projects .project .project_content a {
+    color: #FFF;
+    font-size: 26px;
+    background-color: #000;
+    padding: 10px 20px;
+    border: 0;
+}
+
+.yourProfile h3 {
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+
+@media(max-width: 991px) {
+    .footer .logoContainer p {
+        margin-right: 0;
+    }
+
+}
+@media(max-width: 768px) {
+    .yourProfile h3 {
+        margin-left: 0;
+    }
+
+}
